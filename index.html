@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ai Image Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+   <h1>AI IMAGE GENERATOR</h1> 
+   <div class="searc-box">
+    <input type="text" id="prompt" placeholder="Type Your Image Descriptio...">
+    <button onclick="generateimage()"><i class="fa-solid fa-arrow-right"></i></button>
+   </div>
+   <div class="result-container" id="result">
+    <!-- <div class="loding-text">Generating Image... Please wait..i</div> -->
+     <div class="image-wrapper" id="imgecomtainer">
+        <div class="icon-btns">
+            <button onclick="downloadimage()"><i class="fa-solid fa-download"></i></button>
+            <button onclick="deleteimage()"><i class="fa-solid fa-trash"></i></button>
+        </div>
+<img id="imagegenerator" src="https://img.freepik.com/premium-vector/blue-car-flat-style-illustration-isolated-white-background_108231-795.jpg?semt=ais_incoming&w=740&q=80">
+    </div>
+
+   </div>
+</body>
+</html>
